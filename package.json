@@ -1,0 +1,96 @@
+{
+  "name": "portal_linea_personas_cmp",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grupo-Avanza/CmpAPP"
+  },
+  "author": "Grupo Avanza SPA",
+  "keywords": [
+    "react native",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/Grupo-Avanza/CmpAPP/issues"
+  },
+  "homepage": "https://github.com/Grupo-Avanza/CmpAPP",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint-prettier": "prettier --check ./src",
+    "format-prettier": "prettier --write ./src",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@notifee/react-native": "^4.1.0",
+    "@react-native-async-storage/async-storage": "^1.15.11",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/datetimepicker": "^4.0.1",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.5.0",
+    "@react-navigation/stack": "^6.0.11",
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.26.0",
+    "react": "17.0.2",
+    "react-hook-form": "^7.22.5",
+    "react-native": "0.67.2",
+    "react-native-document-picker": "^7.1.1",
+    "react-native-elements": "^3.4.2",
+    "react-native-file-viewer": "^2.1.5",
+    "react-native-fs": "^2.18.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "redux": "^4.1.1",
+    "redux-mock-store": "^1.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/runtime": "^7.12.5",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/react-native": "^9.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.65.0",
+    "@types/react-native-vector-icons": "^6.4.10",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/styled-components": "^5.1.19",
+    "@types/styled-components-react-native": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.14.0",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-module-resolver": "^1.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "prettier": "^2.5.1",
+    "react-native-codegen": "^0.0.7",
+    "react-redux": "^7.2.6",
+    "redux-devtools": "^3.7.0",
+    "typescript": "^4.5.5"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,ts,tsx,android.js,ios.js,native.js}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}
