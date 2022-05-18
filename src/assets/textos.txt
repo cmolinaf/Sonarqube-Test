@@ -1,4 +1,0 @@
-placeholders: {
-    user: 'Usuario', 
-    password: 'Contraseña'
-}
